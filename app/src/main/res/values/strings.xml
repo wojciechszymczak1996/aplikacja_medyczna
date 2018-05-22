@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PUNKTY MEDYCZNE</string>
+    <string name="apteka">APTEKA</string>
+    <string name="szpital">SZPITAL</string>
+    <string name="przychodnia">PRZYCHODNIA</string>
+    <string name="nisoz">NiSOZ</string>
+    <string name="maksymalna_odl">MAKSYMALNA ODLEGŁOŚĆ</string>
+    <string name="godziny_otwarcia">GODZINY OTWARCIA</string>
+    <string name="otw_teraz">OTWARTE TERAZ</string>
+
+</resources>

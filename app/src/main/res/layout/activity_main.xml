@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tlo"
+    android:visibility="visible"
+    tools:context="com.example.wojciech.chorzydoktorzy.MainActivity">
+
+    <Button
+        android:id="@+id/apteka_but"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:text="@string/apteka"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="420dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/szpital_but"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:text="@string/szpital"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="290dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/przychodnia_but"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:text="@string/przychodnia"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="160dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/nisoz_but"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:text="@string/nisoz"
+        android:layout_marginTop="410dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+</android.support.constraint.ConstraintLayout>
