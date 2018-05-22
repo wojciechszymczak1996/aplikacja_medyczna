@@ -26,5 +26,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile 'com.xw.repo:bubbleseekbar:3.5-lite'
-    compile 'com.crystal:crystalrangeseekbar:1.0.0'
+    compile 'org.florescu.android.rangeseekbar:rangeseekbar-library:0.3.0'
 }

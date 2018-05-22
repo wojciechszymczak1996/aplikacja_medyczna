@@ -7,5 +7,7 @@
     <string name="maksymalna_odl">MAKSYMALNA ODLEGŁOŚĆ</string>
     <string name="godziny_otwarcia">GODZINY OTWARCIA</string>
     <string name="otw_teraz">OTWARTE TERAZ</string>
-
+    <string name="godz_otw">CZYNNE OD GODZINY</string>
+    <string name="godz_zam">CZYNNE DO GODZINY</string>
+    <string name="ocena">OCENA UŻYTKOWNIKÓW</string>
 </resources>
