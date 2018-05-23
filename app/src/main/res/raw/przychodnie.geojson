@@ -1,0 +1,780 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-05-23T11:39:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/140116",
+        "addr:city": "Warszawa",
+        "addr:city:simc": "0918123",
+        "addr:housenumber": "34",
+        "addr:postcode": "00-863",
+        "addr:street": "Grzybowska",
+        "addr:street:sym_ul": "06344",
+        "amenity": "doctors",
+        "building": "yes",
+        "source:addr": "mapa.um.warszawa.pl",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates":
+            [
+              20.994292,
+              52.2357669
+            ]
+      },
+      "id": "relation/140116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23485609",
+        "addr:city": "Warszawa",
+        "addr:city:simc": "0918123",
+        "addr:housenumber": "10A",
+        "addr:postcode": "00-631",
+        "addr:street": "Ludwika Waryńskiego",
+        "addr:street:sym_ul": "23707",
+        "amenity": "doctors",
+        "building": "hall",
+        "name": "Przychodnia Lekarska PW",
+        "source:addr": "mapa.um.warszawa.pl"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates":
+            [
+              21.0165186,
+              52.2157334
+            ]
+      },
+      "id": "way/23485609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/27089132",
+        "addr:city": "Warszawa",
+        "addr:city:simc": "0918123",
+        "addr:housenumber": "6A",
+        "addr:postcode": "00-467",
+        "addr:street": "Dragonów",
+        "addr:street:sym_ul": "04160",
+        "amenity": "doctors",
+        "building": "yes",
+        "name": "Centrum Zdrowia Woli i Śródmieścia",
+        "source:addr": "mapa.um.warszawa.pl"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates":
+            [
+              21.0433236,
+              52.2179916
+            ]
+      },
+      "id": "way/27089132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28407941",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "37",
+        "addr:postcode": "02-010",
+        "addr:street": "Nowowiejska",
+        "amenity": "doctors",
+        "building": "yes",
+        "name": "EuroDental",
+        "opening_hours": "Mo-Fr 08:00-20:00, Sa 08:00-14:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates":
+            [
+              21.0034071,
+              52.22001
+            ]
+      },
+      "id": "way/28407941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/30860202",
+        "addr:city": "Warszawa",
+        "addr:city:simc": "0918123",
+        "addr:housenumber": "5",
+        "addr:postcode": "00-467",
+        "addr:street": "Jazdów",
+        "addr:street:sym_ul": "07410",
+        "amenity": "doctors",
+        "building": "yes",
+        "operator": "NFZ",
+        "source": "msi",
+        "source:addr": "mapa.um.warszawa.pl"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates":
+            [
+              21.0281049,
+              52.2224303
+            ]
+      },
+      "id": "way/30860202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/217946388",
+        "addr:city": "Warszawa",
+        "addr:city:simc": "0918123",
+        "addr:housenumber": "31",
+        "addr:postcode": "00-665",
+        "addr:street": "Nowowiejska",
+        "addr:street:sym_ul": "14495",
+        "amenity": "doctors",
+        "building": "yes",
+        "building:colour": "#7c473b",
+        "building:levels": "3",
+        "building:material": "brick",
+        "fax": "22 8258221",
+        "name": "Specjalistyczna Przychodnia Lekarska dla Pracowników Wojska",
+        "opening_hours": "Mo-Fr 07:00-19:30",
+        "phone": "22 625 60 61, 22 8258221",
+        "source:addr": "mapa.um.warszawa.pl",
+        "website": "http://www.spl.pl/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates":
+            [
+              21.006047,
+              52.2199261
+            ]
+      },
+      "id": "way/217946388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/308323841",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "30",
+        "addr:postcode": "00-024",
+        "addr:street": "Aleje Jerozolimskie",
+        "amenity": "doctors",
+        "email": "rejestracja@medincus.pl",
+        "fax": "+48 22 635 41 09",
+        "name": "Medincus",
+        "phone": "+48 22 635 41 09",
+        "website": "http://csim.pl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0190578,
+          52.2316047
+        ]
+      },
+      "id": "node/308323841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333137131",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "43",
+        "addr:street": "Wilcza",
+        "amenity": "doctors",
+        "name": "Lecznica IZIS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0144253,
+          52.2244663
+        ]
+      },
+      "id": "node/333137131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/338509216",
+        "addr:street": "Nowogrodzka",
+        "amenity": "doctors",
+        "source": "msi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0100034,
+          52.2281305
+        ]
+      },
+      "id": "node/338509216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/342627870",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "75",
+        "addr:street": "Nowogrodzka",
+        "amenity": "doctors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9937643,
+          52.2244354
+        ]
+      },
+      "id": "node/342627870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/368939338",
+        "amenity": "doctors",
+        "name": "Centrum Rehabilitacji NFZ",
+        "operator": "NFZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.034473,
+          52.2350582
+        ]
+      },
+      "id": "node/368939338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/386247487",
+        "amenity": "doctors",
+        "name": "CEPELEK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0051566,
+          52.2232407
+        ]
+      },
+      "id": "node/386247487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/402518366",
+        "amenity": "doctors",
+        "source": "msi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0002557,
+          52.2378858
+        ]
+      },
+      "id": "node/402518366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/402531025",
+        "amenity": "doctors",
+        "name": "Lekarska Spółdzielnia Profesorsko-Ordynatorska",
+        "source": "msi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9926684,
+          52.23609
+        ]
+      },
+      "id": "node/402531025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/410797677",
+        "amenity": "doctors",
+        "name": "Centrum Leczenia Jaskry i Chrób Oka",
+        "source": "msi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0353044,
+          52.2292261
+        ]
+      },
+      "id": "node/410797677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/530642380",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "68",
+        "addr:street": "Żelazna",
+        "amenity": "doctors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9898148,
+          52.2370268
+        ]
+      },
+      "id": "node/530642380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/715725741",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "3/5",
+        "addr:postcode": "00-922",
+        "addr:street": "Mikołaja Reja",
+        "amenity": "doctors",
+        "name": "Poradnia Lekarska Ministerstwa Środowiska",
+        "phone": "+48225792320",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9918741,
+          52.2170664
+        ]
+      },
+      "id": "node/715725741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/746513228",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "17",
+        "addr:street": "Mikołaja Kopernika",
+        "amenity": "doctors",
+        "name": "Primomedica",
+        "operator": "Primomedica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0203492,
+          52.2352699
+        ]
+      },
+      "id": "node/746513228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/746513274",
+        "abbr_name": "CKiR NFZ",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "4",
+        "addr:street": "Konstantego Ildefonsa Gałczyńskiego",
+        "amenity": "doctors",
+        "name": "Przychodnia Rehabilitacyjna Nr 2, Centrum Kształcenia i Rehabilitacji",
+        "operator": "NFZ",
+        "phone": "+48228266318"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0204132,
+          52.2338961
+        ]
+      },
+      "id": "node/746513274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/786449579",
+        "amenity": "doctors",
+        "name": "Doktor Chaciński"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0185147,
+          52.2173912
+        ]
+      },
+      "id": "node/786449579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/952332217",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "12",
+        "addr:street": "Chmielna",
+        "amenity": "doctors",
+        "name": "Centrum Medyczne Piaseczno",
+        "operator": "CMP",
+        "toilets:wheelchair": "yes",
+        "url": "http://cmp.med.pl/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0171562,
+          52.2329273
+        ]
+      },
+      "id": "node/952332217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2455215870",
+        "addr:city": "Warszawa",
+        "addr:city:simc": "0918123",
+        "addr:housenumber": "91",
+        "addr:postcode": "02-001",
+        "addr:street": "Aleje Jerozolimskie",
+        "addr:street:sym_ul": "00215",
+        "amenity": "doctors",
+        "name": "Harmonia",
+        "phone": "517 759 917",
+        "source:addr": "mapa.um.warszawa.pl",
+        "website": "http://poradnia-harmonia.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9992197,
+          52.2269085
+        ]
+      },
+      "id": "node/2455215870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3189102509",
+        "amenity": "doctors",
+        "contact:email": "lasermed@lasermed.pl",
+        "contact:phone": "+48226271584",
+        "contact:website": "http://www.lasermed.pl",
+        "healthcare:speciality": "dermatology",
+        "name": "LASERMED Centrum Dermatologii Laserowej i Chirurgii Plastycznej",
+        "opening_hours": "Mo-Fr 09:00-19:00, Sa 09:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0113855,
+          52.2257723
+        ]
+      },
+      "id": "node/3189102509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3427908345",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "9",
+        "addr:street": "Ludwika Waryńskiego",
+        "amenity": "doctors",
+        "name": "Spółdzielnia Pracy Specjalistów Rentgenologów",
+        "website": "http://rentgen.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0151826,
+          52.2206828
+        ]
+      },
+      "id": "node/3427908345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3732354334",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "111a",
+        "addr:street": "Marszałkowska",
+        "amenity": "doctors",
+        "name": "Nasz doktor",
+        "website": "http://www.naszdoktor.pl/warszawa/aktualnosci"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0038912,
+          52.239382
+        ]
+      },
+      "id": "node/3732354334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4244285774",
+        "addr:city": "Warszawa",
+        "addr:city:simc": "0918123",
+        "addr:housenumber": "10",
+        "addr:postcode": "00-023",
+        "addr:street": "Widok",
+        "addr:street:sym_ul": "24011",
+        "amenity": "doctors",
+        "name": "Terapia",
+        "official_name": "Lecznica Lekarzy Specjalistów Terapia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0149866,
+          52.2315002
+        ]
+      },
+      "id": "node/4244285774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4297795969",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "6",
+        "addr:postcode": "00-631",
+        "addr:street": "Ludwika Waryńskiego",
+        "amenity": "doctors",
+        "email": "przychodnia.warynskiego@multimed.pl",
+        "name": "Przychodnia MULTI MED Waryńskiego",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-14:00",
+        "operator": "MULTI MED",
+        "phone": "22 636 47 74",
+        "short_name": "MULTIMED",
+        "website": "https://multimed.pl/placowki/przychodnia-multi-med-warynskiego-6-warszawa/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0172819,
+          52.214025
+        ]
+      },
+      "id": "node/4297795969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4297856490",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "3",
+        "addr:postcode": "00-622",
+        "addr:street": "Polna",
+        "amenity": "doctors",
+        "email": "przychodnia.polna@multimed.pl",
+        "name": "Przychodnia MULTI MED Polna",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-14:00",
+        "operator": "MULTI MED",
+        "phone": "22 636 47 74",
+        "short_name": "MULTIMED",
+        "website": "https://multimed.pl/placowki/przychodnia-multi-med-polna-3-warszawa/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0193941,
+          52.2146636
+        ]
+      },
+      "id": "node/4297856490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4547727720",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "29",
+        "addr:postcode": "00-867",
+        "addr:street": "Aleja Jana Pawła II",
+        "amenity": "doctors",
+        "name": "Enel-Med Oddział Atrium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9951529,
+          52.2389863
+        ]
+      },
+      "id": "node/4547727720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4560340860",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "5",
+        "addr:postcode": "00-132",
+        "addr:street": "Grzybowska",
+        "amenity": "doctors",
+        "name": "Centrum Medyczne Lekarium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0016604,
+          52.2363573
+        ]
+      },
+      "id": "node/4560340860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562626838",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "16/22",
+        "addr:postcode": "00-132",
+        "addr:street": "Grzybowska",
+        "amenity": "doctors",
+        "name": "Spółka Lekarska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9991849,
+          52.237393
+        ]
+      },
+      "id": "node/4562626838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4604700198",
+        "amenity": "doctors",
+        "name": "Polski Bank Komórek Macierzystych"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9953082,
+          52.2391348
+        ]
+      },
+      "id": "node/4604700198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4619366190",
+        "amenity": "doctors",
+        "name": "Prof-Med"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9991899,
+          52.2358009
+        ]
+      },
+      "id": "node/4619366190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4665940525",
+        "amenity": "doctors",
+        "name": "MML"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0053061,
+          52.235833
+        ]
+      },
+      "id": "node/4665940525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4795849109",
+        "amenity": "doctors",
+        "name": "Luxmed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9869299,
+          52.2304697
+        ]
+      },
+      "id": "node/4795849109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4796210334",
+        "amenity": "doctors",
+        "name": "Okulistyka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9955775,
+          52.2329599
+        ]
+      },
+      "id": "node/4796210334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5629410519",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "18",
+        "addr:postcode": "00-845",
+        "addr:street": "Łucka",
+        "amenity": "doctors",
+        "email": "recepcja@gabinety-lucka.pl",
+        "fax": "+48 22 654 24 61",
+        "layer": "1",
+        "name": "Gabinety Lekarskie Łucka",
+        "opening_hours": "Mo-Fr 08:00-20:00",
+        "payment:coins": "yes",
+        "payment:credit_cards": "no",
+        "payment:cryptocurrencies": "no",
+        "payment:debit_cards": "no",
+        "payment:electronic_purses": "no",
+        "payment:notes": "yes",
+        "phone": "+48 22 654 24 64",
+        "website": "http://www.gabinety-lucka.pl/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9878566,
+          52.2329918
+        ]
+      },
+      "id": "node/5629410519"
+    }
+  ]
+}

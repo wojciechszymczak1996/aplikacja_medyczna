@@ -1,8 +1,11 @@
 package com.example.wojciech.chorzydoktorzy;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
@@ -15,11 +18,29 @@ public class Main4Activity extends AppCompatActivity {
     boolean otwarte=false;
     String godz_otw="00:00";
     String godz_zam="24:00";
+
+    // przycisk szukaj
+    public Button button_szukaj;
+    public void initButtn()
+    {
+        button_szukaj = (Button) findViewById(R.id.button4);
+        button_szukaj.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent szukaj = new Intent(Main4Activity.this, MapsActivity3.class);
+                startActivity(szukaj);
+            }
+        });
+    }
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
 
+        initButtn();
 
         //pasek odleglosci
         final BubbleSeekBar bubbleSeekBar = (BubbleSeekBar) findViewById(R.id.seekBar);

@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-05-23T08:50:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/312054246",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "MAXFARM",
+        "opening_hours": "Mo-Fr 07:30-19:30; Sa 09:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0073587,
+          52.2232104
+        ]
+      },
+      "id": "node/312054246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/343300094",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "Dr.Max",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "source": "msi",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0215527,
+          52.2141842
+        ]
+      },
+      "id": "node/343300094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/343300281",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "20/22",
+        "addr:street": "Marszałkowska",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "Syrenka",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-15:00",
+        "source": "msi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0201378,
+          52.2166503
+        ]
+      },
+      "id": "node/343300281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/386234455",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "przyjazna",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0177303,
+          52.2172353
+        ]
+      },
+      "id": "node/386234455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/408995137",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "drive_through": "no",
+        "name": "Aptekarz warszawski",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-15:00",
+        "source": "msi",
+        "website": "http://www.aptekarzwarszawski.pl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0149493,
+          52.2197844
+        ]
+      },
+      "id": "node/408995137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1125345105",
+        "addr:city": "Warszawa",
+        "addr:housenumber": "12",
+        "addr:postcode": "00-640",
+        "addr:street": "Mokotowska",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "Apteka Przy Placu Zbawiciela",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0183259,
+          52.2202612
+        ]
+      },
+      "id": "node/1125345105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2534667586",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "Ziko",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 08:00-15:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0143099,
+          52.2229547
+        ]
+      },
+      "id": "node/2534667586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3833012457",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "name": "PRZY RIVIERZE",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-15:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0163669,
+          52.2158803
+        ]
+      },
+      "id": "node/3833012457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3833099557",
+        "amenity": "pharmacy",
+        "dispensing": "yes",
+        "opening_hours": "Mo-Fr 07:30-20:30; Sa 08:00-16:00",
+        "operator": "Tanie Apteki Rodzinne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0186106,
+          52.2211447
+        ]
+      },
+      "id": "node/3833099557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4251559589",
+        "amenity": "pharmacy",
+        "name": "Super-Pharm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0186731,
+          52.2191571
+        ]
+      },
+      "id": "node/4251559589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4738323521",
+        "amenity": "pharmacy",
+        "name": "Słoneczna",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa 08:00-15:00",
+        "phone": "22 625 04 96"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0076007,
+          52.2232632
+        ]
+      },
+      "id": "node/4738323521"
+    }
+  ]
+}

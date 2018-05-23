@@ -11,4 +11,7 @@
     <string name="godz_zam">CZYNNE DO GODZINY</string>
     <string name="ocena">OCENA UŻYTKOWNIKÓW</string>
     <string name="specjalista">SPECJALISTA</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps3">Map</string>
 </resources>
