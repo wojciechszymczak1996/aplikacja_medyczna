@@ -6,4 +6,164 @@
     android:layout_height="match_parent"
     tools:context="com.example.wojciech.chorzydoktorzy.Main3Activity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:text="@string/maksymalna_odl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="470dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <com.xw.repo.BubbleSeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:bsb_bubble_color="@color/colorPrimary"
+        app:bsb_track_color="@color/colorPrimary"
+        app:bsb_bubble_text_color="@color/tlo"
+        app:bsb_second_track_color="@color/colorPrimary"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="330dp"
+        android:layout_marginHorizontal="30dp"
+        app:bsb_min="0"
+        app:bsb_max="1000"
+        app:bsb_progress="0"
+        app:bsb_section_count="5"
+        app:bsb_section_text_position="bottom_sides"
+        app:bsb_show_progress_in_float="false"
+        app:bsb_show_section_text="true"
+        app:bsb_show_section_mark="true"
+        app:bsb_show_thumb_text="true"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:text="@string/godziny_otwarcia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="220dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/otw_teraz"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="350dp"
+        android:layout_marginHorizontal="30dp"
+        android:buttonTint="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="330dp"
+        android:layout_marginHorizontal="30dp"
+        android:ems="10"
+        android:inputType="time"
+        android:gravity="center"
+        android:backgroundTint="@color/tlo"
+        android:hint="@string/godz_otw"
+        />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="240dp"
+        android:layout_marginBottom="270dp"
+        android:layout_marginHorizontal="30dp"
+        android:ems="10"
+        android:inputType="time"
+        android:gravity="center"
+        android:backgroundTint="@color/tlo"
+        android:hint="@string/godz_zam"
+        />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="220dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="@string/ocena"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="365dp"
+        android:layout_marginBottom="115dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+    <com.xw.repo.BubbleSeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:bsb_bubble_color="@color/colorPrimary"
+        app:bsb_track_color="@color/colorPrimary"
+        app:bsb_bubble_text_color="@color/tlo"
+        app:bsb_second_track_color="@color/colorPrimary"
+        android:layout_marginTop="395dp"
+        android:layout_marginBottom="125dp"
+        android:layout_marginHorizontal="30dp"
+        app:bsb_min="0"
+        app:bsb_max="5"
+        app:bsb_progress="0"
+        app:bsb_section_count="5"
+        app:bsb_section_text_position="bottom_sides"
+        app:bsb_show_progress_in_float="false"
+        app:bsb_show_section_text="true"
+        app:bsb_show_section_mark="true"
+        app:bsb_show_thumb_text="true"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:text="@string/specjalista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="460dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="490dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+
 </android.support.constraint.ConstraintLayout>

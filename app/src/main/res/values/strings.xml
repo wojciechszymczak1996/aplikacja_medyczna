@@ -10,4 +10,5 @@
     <string name="godz_otw">CZYNNE OD GODZINY</string>
     <string name="godz_zam">CZYNNE DO GODZINY</string>
     <string name="ocena">OCENA UŻYTKOWNIKÓW</string>
+    <string name="specjalista">SPECJALISTA</string>
 </resources>
